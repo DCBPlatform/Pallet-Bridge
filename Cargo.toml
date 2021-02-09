@@ -2,7 +2,7 @@
 authors = ['DCB <https://github.com/DCBPlatform>']
 description = 'DCB Bridge Pallet'
 edition = '2018'
-homepage = 'https://substrate.dev'
+homepage = 'https://dcb.my'
 license = 'GPL3'
 name = 'pallet-bridge'
 repository = 'https://github.com/DCBPlatform/pallet-bridge/'
