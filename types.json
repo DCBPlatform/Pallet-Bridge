@@ -1,0 +1,30 @@
+{
+    "EtherIssueIndex": "u128",
+
+    "EtherIssueInfoOf": "EtherIssueInfo",
+    "EtherIssueInfo": {
+      "vault": "Vec<u8>", 
+      "sender": "Vec<u8>", 
+      "amount": "Balance", 
+      "issuer": "AccountId", 
+      "issued": "BlockNumber", 
+      "vault_status": "bool", 
+      "transaction": "Vec<u8>", 
+      "minted_status": "bool"
+    },
+
+    "EtherRedemptionIndex": "u128",
+
+    "EtherRedemptionInfoOf": "EtherRedemptionInfo",
+    "EtherRedemptionInfo": {
+      "vault": "Vec<u8>", 
+      "receiver": "Vec<u8>", 
+      "amount": "AccountId", 
+      "redeemer": "AccountId", 
+      "redeemed": "BlockNumber", 
+      "vault_status": "bool", 
+      "transaction": "Vec<u8>", 
+      "burnt_status": "bool"
+    }    
+  
+}
